@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecom</title>
@@ -10,9 +11,164 @@
 rel="stylesheet">
 
 <link rel ="stylesheet" href ="style.css">
-
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </head>
+  
 </head>
 <body>
+    <nav class="navbar">
+        <h1>Ecom</h1>
+        <div class="navbar-links">
+            <p class="navbar-links"><a  href="">Home</a></p>
+            <p class="navbar-links"><a href="">Collections</a></p>
+            <p class="navbar-links"><a href="">Contact</a></pL>
+
+        </div> 
+
+        <div class="toggle-button " onclick = "showNavBar()">
+            <i class = "fa-solid fa-bars"></i>
+
+        </div>
+    </nav>
+
+    <nav class="side-navbar" >
+        <p style="text-align:right" onclick = "closeNavBar()">
+            <i class="fas fa-times" ></i>
+        </p>
+        <div>
+            <p class= "side-navbar-links"><a  href="">Home</a></p>
+            <p class="side-navbar-links"><a href="">Collections</a></p>
+            <p class="side-navbar-links"><a href="">Contact</a></pL>
+        </div>
+    </nav>
+
+<!---header-->
     
+<div class="head">
+    <div>
+    <h1>Level up your style</h1>
+    <p>With our stunning Collections</p>
+    <button class="Shop_Now">Shop Now</button>  
+    </div>
+        <div >
+            <img src="https://picsum.photos/300/300" alt="" class="header-image" >
+        </div>
+</div>
+<!--Service-->
+<div class="Service">
+    <div class = "Service_Container">
+        <h2>We Provide Best</h2>
+        <h2>Customer Experience</h2>
+    </div>
+    <div  >
+        <p class="service-para">||We ensure that our Customer have the best shopping Experience</p>
+    </div>
+    </div>
+    <div class="Service_Container2">
+        <div>
+            <i class="far fa-smile"></i>
+            <h4>Satisfaction Garantee</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing voluptatem debitis repellendus quidem numquam.</p>
+        </div>
+        <div>
+            <i class="far fa-smile"></i>
+            <h4>New Arrival Everyday</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.  pariatur eum voluptatem debitis repellendus quidem numquam.</p>
+        </div>
+
+        <div>
+            <i class="far fa-smile"></i>
+            <h4>Fast and Free shopping</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.  nisi pariatur eum voluptatem debitis repellendus quidem numquam.</p>
+        </div>
+    </div>
+<div class="T1" >
+        <h1 style="display: inline-block;" >Collections</h1>
+</div>
+<!--collections-->
+    <div class="collections">
+
+        <div class="collections-container"> 
+        <img src ="https://picsum.photos/200/200?1">
+        <button>Shop Now <i  class="fas fa-arrow-right"></i>
+          </button>
+    </div>    
+    <div class="collections-container"> 
+        <img src ="https://picsum.photos/200/200?2">
+        <button>Shop Now <i  class="fas fa-arrow-right"></i>
+            </button>
+
+    </div>
+  
+    <div class="collections-container"> 
+        <img src ="https://picsum.photos/200/200?3">
+        <button>Shop Now <i  class="fas fa-arrow-right"></i></button>
+    </div>
+  
+    <div class="collections-container"> 
+        <img src ="https://picsum.photos/200/200?4">
+        <button>Shop Now <i  class="fas fa-arrow-right"></i></button>
+    </div>
+    
+</div>
+
+<div class="T2" >
+    <h1 style="display: inline-block;" >Most Wanted</h1>
+</div>
+<!--Most Wanted-->
+<div class="collections">
+
+    <div class="collections-container"> 
+    <img src ="https://picsum.photos/200/200?1">
+    <button>Shop Now <i  class="fas fa-arrow-right"></i>
+      </button>
+</div>    
+<div class="collections-container"> 
+    <img src ="https://picsum.photos/200/200?2">
+    <button>Shop Now <i  class="fas fa-arrow-right"></i>
+        </button>
+
+</div>
+
+<div class="collections-container"> 
+    <img src ="https://picsum.photos/200/200?3">
+    <button>Shop Now <i  class="fas fa-arrow-right"></i></button>
+</div>
+
+<div class="collections-container"> 
+    <img src ="https://picsum.photos/200/200?4">
+    <button>Shop Now <i  class="fas fa-arrow-right"></i></button>
+</div>
+
+</div>
+<!--News-->
+<div class="News">
+    <h1>Join Our News Letter</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam error alias ipsam? Aspernatur id unde minima, est, neque voluptatum voluptas quaerat nobis voluptate illo quo possimus? Harum laboriosam placeat delectus libero. Consequatur quia illum explicabo corporis vel error.</pL>
+        <div class="Input">
+            <input type="text" placeholder="Enter">
+        </div>
+        <div >
+            <button >Suscribe</button>
+        </div>
+</div>
+<!--End Card-->
+<div class="Endcard">
+    <div class="Endcard_container">
+        <div class="Endcard_box"></div>
+        <h1>Ecom</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam fugiat nobis fugit aperiam adipisci voluptas consequuntur, eum unde. Qui, libero.</p>
+        <div class = "Endcard_icons">
+            <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+
+        </div>
+    </div>
+
+</div>
+
+<script src="main.js"></script>
 </body>
 </html>
